@@ -5,7 +5,7 @@ var app = express();
 app.use(logfmt.requestLogger());
 
 app.get('/', function(req, res) {
-  res.send('Hello World, Heroku!');
+  res.send('我们的故事, 从近邻开始!');
 });
 
 var port = Number(process.env.PORT || 5000);
